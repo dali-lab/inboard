@@ -1,5 +1,8 @@
 .DS_STORE
 
-# dotenv environment variables file
+node_modules
+yarn-error.log
+.vscode
+dist
+
 .env
-.env.test
