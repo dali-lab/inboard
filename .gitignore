@@ -1,5 +1,7 @@
 .DS_STORE
 
-# dotenv environment variables file
 .env
 .env.test
+
+# no need for top level yarn lock
+yarn.lock
