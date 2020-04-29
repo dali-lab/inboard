@@ -17,8 +17,11 @@ module.exports = {
             loader: 'html-loader',
           },
         ],
-      }
+      },
     ],
+  },
+  devServer: {
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebPackPlugin({
