@@ -6,7 +6,7 @@ export default function Landing() {
     // const classes = useStyles()
     return (
         <Page fixed hide>
-        <Welcome />
+            <Welcome />
         </Page>
     );
 }

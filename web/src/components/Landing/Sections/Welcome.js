@@ -43,7 +43,7 @@ export default function Welcome(props) {
   return (
     <Box>
       <Box className={classes.flexCenter}>
-        <Typography className={classes.welcomeBigText} variant="h1" gutterBottom="true">
+        <Typography className={classes.welcomeBigText} variant="h1" gutterBottom={true}>
           Make work better.
         </Typography>
       </Box>
