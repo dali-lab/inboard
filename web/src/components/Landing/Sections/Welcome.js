@@ -6,7 +6,6 @@ import { NavLink } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 
 
-// TODO: use the theme colors
 const useStyles = makeStyles(theme => ({
   welcomeBigText: {
     marginTop: '50px',
