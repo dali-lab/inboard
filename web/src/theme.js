@@ -1,26 +1,35 @@
 import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles'
 
-// TODO: These are the wrong Inboard colors
 const Theme = createMuiTheme({
   palette: {
-    type: 'dark',
+    type: 'light',
     primary: {
-      main: '#4357AD', // Liberty
+      main: '#5E5885', // Inboard Indigo
     },
     secondary: {
-      main: '#D6A2AD', // Pastel Pink
+      main: '#F5D493', // Inboard Yellow
     },
     background: {
-      default: '#1C1919',
+      default: 'white',
     },
+    // info - used to present information to the user that is neutral and not necessarily important.
     info: {
-      main: '#5DD39E',
+      main: '#9C9C9C', // light grey
     },
+    success: {
+      main: '#7EBB74', // green
+    },
+    error: {
+      main: '#CF4F4F', // red
+    },
+    warning: {
+      main: '#EF806A' // orange
+    }
   },
   overrides: {
     MuiTypography: {
       root: {
-        color: '#F3EFE0',
+        main: '#484848', // dark grey
       },
     },
   },

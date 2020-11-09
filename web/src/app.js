@@ -3,6 +3,7 @@ import * as React from 'react'
 import { BrowserRouter, Route, Switch, withRouter } from 'react-router-dom'
 
 import { MuiThemeProvider } from '@material-ui/core/styles'
+import Landing from './components/Landing'
 import Page from './components/Core/Page'
 import Theme from './theme'
 import { authUser } from './actions/authActions'
@@ -10,8 +11,6 @@ import { axiosInstance } from './utils/axiosConfig'
 import { connect } from 'react-redux'
 import SignUpPage from './components/User/SignUp/SignUpPage'
 import SignInPage from './components/User/SignIn/SignInPage'
-
-const Landing = () => <div> Welcome </div>
 
 const Root = () => (
   <Switch>
